@@ -1,0 +1,44 @@
+name: Punishment Appeal
+description: Appeal a punishment
+labels: ["type: punishment-appeal"]
+body:
+
+  - type: dropdown
+  attributes:
+    label: Location
+    description: Where were you punished?
+    multiple: false
+    options:
+      - label: Minecraft Server
+      - label: Matrix
+      - label: Discord
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Username / ID
+      description: Who are you?
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Type of punishment
+      description: What was your punishment?
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: What happened
+      description: What led to you receiving this punishment?
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Why revoke
+      description: Why should we revoke your punishment?
+    validations:
+      required: true

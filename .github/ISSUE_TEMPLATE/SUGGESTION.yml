@@ -1,0 +1,11 @@
+name: Suggestion
+description: Submit feedback and ideas
+labels: ["type: suggestion"]
+body:
+
+  - type: textarea
+    attributes:
+      label: Description
+      description: What do you suggest?
+    validations:
+      required: true

@@ -1,0 +1,44 @@
+name: Player Report
+description: Report a player
+labels: ["type: player-report"]
+body:
+
+  - type: dropdown
+  attributes:
+    label: Location
+    description: Where was the rule breaker?
+    multiple: false
+    options:
+      - label: Minecraft Server
+      - label: Matrix
+      - label: Discord
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Username / ID
+      description: Who is the rule breaker?
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Rule(s) broken
+      description: What rule(s) did they break?
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Proof
+      description: This may include a screenshot or a video.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Additional context
+      description: Add any other context about the problem here.
+    validations:
+      required: false
