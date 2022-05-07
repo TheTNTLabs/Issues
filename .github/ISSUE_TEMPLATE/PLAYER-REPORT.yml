@@ -4,10 +4,10 @@ labels: ["type: player-report"]
 body:
 
   - type: dropdown
-  attributes:
-    label: Location
-    description: Where was the rule breaker?
-    multiple: false
+    attributes:
+      label: Location
+      description: Where was the rule breaker?
+      multiple: false
     options:
       - label: Minecraft Server
       - label: Matrix

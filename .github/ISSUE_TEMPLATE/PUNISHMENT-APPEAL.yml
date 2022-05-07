@@ -4,10 +4,10 @@ labels: ["type: punishment-appeal"]
 body:
 
   - type: dropdown
-  attributes:
-    label: Location
-    description: Where were you punished?
-    multiple: false
+    attributes:
+      label: Location
+      description: Where were you punished?
+      multiple: false
     options:
       - label: Minecraft Server
       - label: Matrix
