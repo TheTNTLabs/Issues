@@ -9,9 +9,9 @@ body:
       description: Where were you punished?
       multiple: false
       options:
-      - label: Minecraft Server
-      - label: Matrix
-      - label: Discord
+      - Minecraft Server
+      - Matrix
+      - Discord
     validations:
       required: true
 
