@@ -8,7 +8,7 @@ body:
       label: Location
       description: Where were you punished?
       multiple: false
-    options:
+      options:
       - label: Minecraft Server
       - label: Matrix
       - label: Discord
